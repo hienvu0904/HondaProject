@@ -14,11 +14,11 @@
 
 @for $stt from 1 through 4 {
     .slide-#{$stt}{
-        background-image: url('../../img/banner-#{$stt}.jpg') ;
+        background-image: url('/HondaProject/img/banner-#{$stt}.jpg') ;
         background-size: cover;
         background-position: center center;
         @media screen and (max-width:768px) {
-            background-image: url('../../img/banner-#{$stt}-xs.jpg') ;
+            background-image: url('/HondaProject/img/banner-#{$stt}-xs.jpg') ;
         }
     }
 }
@@ -26,12 +26,12 @@
 @each $stt,$img in (1,slider-1) (2,slider-2) (3,slider-3) (4,slider-4) (5,slider-5)  {
     .carousel-inner{
         .item-#{$stt}{
-            background: url('../../img/#{$img}.jpg');
+            background: url('/HondaProject/img/#{$img}.jpg');
             background-size: cover;
             background-position: center center;
             @media screen and (max-width:768px) {
                 background: none;
-                background: url('../../img/#{$img}-xs.jpg');
+                background: url('/HondaProject/img/#{$img}-xs.jpg');
                 background-size: cover;
                 background-position: unset;
             }
@@ -47,7 +47,7 @@
 
 @each $stt,$img in (1,item-1) (2,item-2) (3,item-3) (4,item-4) {
     .function-#{$stt}{
-            background: url('../../img/#{$img}.jpg');
+            background: url('/HondaProject/img/#{$img}.jpg');
             background-size: 120%;
             background-position: center 1rem;
             background-repeat: no-repeat;

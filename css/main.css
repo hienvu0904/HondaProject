@@ -234,45 +234,45 @@ div {
   animation-delay: 0.9s; }
 
 .slide-1 {
-  background-image: url("../../img/banner-1.jpg");
+  background-image: url("/HondaProject/img/banner-1.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .slide-1 {
-      background-image: url("../../img/banner-1-xs.jpg"); } }
+      background-image: url("/HondaProject/img/banner-1-xs.jpg"); } }
 
 .slide-2 {
-  background-image: url("../../img/banner-2.jpg");
+  background-image: url("/HondaProject/img/banner-2.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .slide-2 {
-      background-image: url("../../img/banner-2-xs.jpg"); } }
+      background-image: url("/HondaProject/img/banner-2-xs.jpg"); } }
 
 .slide-3 {
-  background-image: url("../../img/banner-3.jpg");
+  background-image: url("/HondaProject/img/banner-3.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .slide-3 {
-      background-image: url("../../img/banner-3-xs.jpg"); } }
+      background-image: url("/HondaProject/img/banner-3-xs.jpg"); } }
 
 .slide-4 {
-  background-image: url("../../img/banner-4.jpg");
+  background-image: url("/HondaProject/img/banner-4.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .slide-4 {
-      background-image: url("../../img/banner-4-xs.jpg"); } }
+      background-image: url("/HondaProject/img/banner-4-xs.jpg"); } }
 
 .carousel-inner .item-1 {
-  background: url("../../img/slider-1.jpg");
+  background: url("/HondaProject/img/slider-1.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .carousel-inner .item-1 {
       background: none;
-      background: url("../../img/slider-1-xs.jpg");
+      background: url("/HondaProject/img/slider-1-xs.jpg");
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 568px) {
@@ -281,13 +281,13 @@ div {
       background-position: center center; } }
 
 .carousel-inner .item-2 {
-  background: url("../../img/slider-2.jpg");
+  background: url("/HondaProject/img/slider-2.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .carousel-inner .item-2 {
       background: none;
-      background: url("../../img/slider-2-xs.jpg");
+      background: url("/HondaProject/img/slider-2-xs.jpg");
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 568px) {
@@ -296,13 +296,13 @@ div {
       background-position: center center; } }
 
 .carousel-inner .item-3 {
-  background: url("../../img/slider-3.jpg");
+  background: url("/HondaProject/img/slider-3.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .carousel-inner .item-3 {
       background: none;
-      background: url("../../img/slider-3-xs.jpg");
+      background: url("/HondaProject/img/slider-3-xs.jpg");
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 568px) {
@@ -311,13 +311,13 @@ div {
       background-position: center center; } }
 
 .carousel-inner .item-4 {
-  background: url("../../img/slider-4.jpg");
+  background: url("/HondaProject/img/slider-4.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .carousel-inner .item-4 {
       background: none;
-      background: url("../../img/slider-4-xs.jpg");
+      background: url("/HondaProject/img/slider-4-xs.jpg");
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 568px) {
@@ -326,13 +326,13 @@ div {
       background-position: center center; } }
 
 .carousel-inner .item-5 {
-  background: url("../../img/slider-5.jpg");
+  background: url("/HondaProject/img/slider-5.jpg");
   background-size: cover;
   background-position: center center; }
   @media screen and (max-width: 768px) {
     .carousel-inner .item-5 {
       background: none;
-      background: url("../../img/slider-5-xs.jpg");
+      background: url("/HondaProject/img/slider-5-xs.jpg");
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 568px) {
@@ -341,7 +341,7 @@ div {
       background-position: center center; } }
 
 .function-1 {
-  background: url("../../img/item-1.jpg");
+  background: url("/HondaProject/img/item-1.jpg");
   background-size: 120%;
   background-position: center 1rem;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ div {
       background-position: center 0; } }
 
 .function-2 {
-  background: url("../../img/item-2.jpg");
+  background: url("/HondaProject/img/item-2.jpg");
   background-size: 120%;
   background-position: center 1rem;
   background-repeat: no-repeat;
@@ -371,7 +371,7 @@ div {
       background-position: center 0; } }
 
 .function-3 {
-  background: url("../../img/item-3.jpg");
+  background: url("/HondaProject/img/item-3.jpg");
   background-size: 120%;
   background-position: center 1rem;
   background-repeat: no-repeat;
@@ -386,7 +386,7 @@ div {
       background-position: center 0; } }
 
 .function-4 {
-  background: url("../../img/item-4.jpg");
+  background: url("/HondaProject/img/item-4.jpg");
   background-size: 120%;
   background-position: center 1rem;
   background-repeat: no-repeat;
