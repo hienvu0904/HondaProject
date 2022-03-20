@@ -1029,9 +1029,9 @@ div {
         font-weight: bold;
         margin-bottom: 30px; }
   .intro-container .intro-1 {
-    background: url("../../img/intro-3.jpg"); }
+    background: url("/HondaProject/img/intro-3.jpg"); }
   .intro-container .intro-2 {
-    background: url("../../img/intro-4.jpg"); }
+    background: url("/HondaProject/img/intro-4.jpg"); }
   .intro-container .intro-1, .intro-container .intro-2 {
     margin-top: 0; }
 
