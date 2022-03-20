@@ -1,0 +1,94 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.navbar {
+    padding: 0;
+}
+#navbar {
+    background-color: $color-blue-100;
+    a {
+        color: $color-white;
+        padding: $pd-3 $pd-4;
+        border-right: $border-1;
+        border-left: $border-1;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+    a:first-child {
+        padding: 8px $pd-4;
+    }
+    .discover-menu {
+        left: unset;
+        right: -30%;
+        top: 125%;
+        width: 40rem;
+        padding: $pd-4;
+        box-shadow:$box-shadow;
+        border: none;
+        &::before{
+            @include arrow(unset,20%);
+        }
+        .dropdown-item{
+            &:hover{
+                background-color: transparent;
+            }
+        }
+        .dropdown-menu-detail {
+            > div {
+                width: 50%;
+            }
+            display: flex;
+            h3 {
+                margin-bottom: $mg-2;
+                color: $color-dark-blue-200;
+                font-weight: $font-weight-bold;
+            }
+
+            .dropdown-detail-right {
+                padding-left: $pd-3;
+            }
+            .dropdown-item {
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                ul li {
+                    margin-bottom: $mg-2 - 5px;
+                }
+                ul li a {
+                    color: $color-blue-200;
+                    border: none;
+                    padding: 0;
+                    font-weight: $font-weight-bold;
+                    text-decoration: none;
+                }
+            }
+        }
+        .dropdown-social{
+            i{
+                width: 30px;
+                height: 30px;
+                background-color: $color-blue-100;
+                font-size: $font-size-1;
+                border-radius:50% ;
+                color: white;
+                text-align: center;
+                line-height: 30px;
+            }
+            display: flex;
+            justify-content: space-around;
+            margin-top: $mg-3;
+        }
+    }
+}
+.no-border {
+    border: none !important;
+}
+.hide {
+    opacity: 0;
+}

@@ -1,0 +1,180 @@
+#navbar {
+    a {
+        @media screen and (max-width: 992px) {
+            padding: $pd-2 14px;
+        }
+    }
+    .nav-item .nav-link {
+        @media screen and (max-width: 992px) {
+            padding: $pd-2 14px;
+        }
+    }
+    a:first-child {
+        @media screen and (max-width: 992px) {
+            padding: 0;
+        }
+    }
+}
+#search-area {
+    @media screen and (max-width: 992px) {
+        padding: $pd-2 $pd-2;
+    }
+    input {
+        @media screen and (max-width: 992px) {
+            width: 80%;
+            height: 3rem;
+        }
+    }
+}
+#swiper-slider {
+    @media screen and (max-width: 992px) {
+        margin-top: $mg-5 - 10;
+        height: 700px;
+    }
+    .swiper-container {
+        @media screen and (max-width: 992px) {
+            height: 400px;
+        }
+        .swiper-wrapper {
+            @media screen and (max-width: 992px) {
+                height: 90%;
+            }
+        }
+    }
+}
+#intro {
+    .intro-container {
+        .intro-right {
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                background-image: url("../../img/intro-2-xs.jpg");
+            }
+            .intro-right-content {
+                @media screen and (max-width: 992px) and (min-width: 768px) {
+                    width: 80%;
+                    left: 10%;
+                }
+            }
+        }
+    }
+}
+#our-vehicles {
+    .carousel-control-next,
+    .carousel-control-prev {
+        i {
+            @media screen and (max-width: 992px) {
+                font-size: $font-size-3;
+                padding: $pd-2;
+            }
+        }
+    }
+    .carousel-caption--config {
+        @media screen and (max-width: 992px) {
+            width: 40%;
+            left: 7%;
+            right: 20%;
+            bottom: unset;
+            top: 10%;
+            text-align: left;
+
+            font-size: $font-size-1 - 0.2rem;
+        }
+        .carousel-caption-detail {
+            @media screen and (max-width: 992px) {
+                margin-bottom: $mg-1;
+            }
+            .carousel-detail-content {
+                h2 {
+                    @media screen and (max-width: 992px) {
+                        font-size: $font-size-3;
+                    }
+                }
+                p {
+                    @media screen and (max-width: 992px) {
+                        font-size: $font-size-1 - 0.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .carousel-caption-footer {
+        @media screen and (max-width: 992px) {
+            width: 100%;
+            border: none;
+            bottom: 15%;
+            justify-content: center !important;
+        }
+    }
+    .carousel-indicators-xs {
+        @media screen and (max-width: 992px) {
+            position: absolute;
+            top: 0;
+            left: 20%;
+            z-index: 9;
+        }
+    }
+    .carousel-inner {
+        @media screen and (max-width: 992px) {
+            margin-top: 0;
+        }
+    }
+    .carousel-indicators-config {
+        @media screen and (max-width: 992px) {
+            width: 100% !important;
+        }
+    }
+    h1 {
+        @media screen and (max-width: 992px) {
+            font-size: $font-size-5;
+        }
+    }
+}
+.carousel-control-next {
+    @media screen and (max-width: 992px) {
+        right: 0rem;
+    }
+}
+.carousel-control-prev {
+    @media screen and (max-width: 992px) {
+        left: 0rem;
+    }
+}
+#our-vehicles {
+    .function-item {
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            top: 38%;
+        }
+    }
+}
+
+#footer {
+    @media screen and (max-width: 992px) {
+        .footer-detail {
+            width: 25%;
+        }
+    }
+}
+#copy-right {
+    @media screen and (max-width: 992px) {
+        p {
+            font-size: $font-size-1 - 0.2;
+        }
+        ul {
+            justify-content: flex-end;
+            li:first-child {
+                padding-left: 0;
+            }
+            li {
+                padding: 0 $pd-1;
+                a {
+                    font-size: $font-size-1 - 0.2;
+                }
+            }
+        }
+        .logo-footer {
+            img {
+                max-width: 50%;
+                height: 30px;
+            }
+        }
+    }
+}

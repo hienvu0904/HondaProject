@@ -1,0 +1,16 @@
+.animate__animated{
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+.carousel{
+    overflow: hidden;
+}
+.carousel-control-next {
+    right: -1.5rem;
+}
+.carousel-control-prev {
+    left: -1.5rem;
+}

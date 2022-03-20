@@ -1,0 +1,261 @@
+#our-vehicles {
+    background-color: $color-grey;
+    .carousel {
+        height: 600px;
+    }
+    .carousel-inner,
+    .carousel-item {
+        height: 95%;
+    }
+    h1 {
+        color: $color-dark-blue-200;
+        font-size: $font-size-4;
+        margin: 0 0 $mg-5 0;
+        padding-top: $pd-3;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        i {
+            font-size: $font-size-5;
+            background-color: $color-blue-overlay;
+            padding: $pd-3;
+            border-radius: 0.9rem;
+        }
+    }
+    .carousel-indicators-config {
+        margin-bottom: $mg-1;
+        li {
+            color: $color-dark-blue-200;
+            font-size: $font-size-1;
+            font-weight: $font-weight-bold;
+            padding: $pd-1 $pd-2;
+            border-radius: 4rem;
+            cursor: pointer;
+        }
+        li.active {
+            color: $color-white !important;
+            background-color: $color-blue-100;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            &::before {
+                position: absolute;
+                content: "";
+                border-top: 15px solid $color-white;
+                border-left: $arrow-width solid transparent;
+                border-right: $arrow-width solid transparent;
+                bottom: ($arrow-width * (-1)) -$mg-1;
+                z-index: 11;
+            }
+        }
+    }
+    .carousel-caption--config {
+        width: 30%;
+        position: absolute;
+        top: 8%;
+        left: 6%;
+        font-size: $font-size-1;
+        color: $color-white;
+        > p {
+            font-weight: $font-weight-bold;
+            span {
+                font-weight: $font-weight-normal;
+            }
+        }
+        img {
+            width: 70%;
+            transform: translateX(-15px);
+        }
+        .caption-content {
+            font-weight: $font-weight-300;
+            margin-bottom: $mg-3;
+        }
+        .carousel-caption-detail {
+            margin-bottom: $mg-3;
+            .carousel-detail-content {
+                h2 {
+                    font-weight: $font-weight-300;
+                    font-size: $font-size-5;
+                }
+                p {
+                    font-size: $font-size-1;
+                    font-weight: $font-weight-bold;
+                }
+            }
+        }
+    }
+    .carousel-caption-footer {
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: $border-2;
+        a {
+            font-size: $font-size-1;
+            font-weight: $font-weight-bold;
+            text-decoration: none;
+            color: $color-white;
+        }
+    }
+    .carousel-indicators-xs {
+        width: 60%;
+        margin: auto;
+        background-color: $color-white;
+        border: $border-3;
+        .indicators-xs-header {
+            padding: 0 $pd-2;
+        }
+        h1 {
+            font-size: $font-size-1;
+            margin: $mg-1 0;
+            color: $color-blue-100;
+            font-weight: $font-weight-300;
+            padding: $pd-2;
+            span {
+                font-weight: $font-weight-bold;
+                color: $color-dark-blue-200;
+            }
+        }
+        i {
+            font-size: $font-size-3;
+            color: $color-blue-100;
+            transition: all 0.3s;
+        }
+        ol {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            border-top: $border-3;
+            display: none;
+        }
+        ol li {
+            color: $color-dark-blue-200;
+            font-size: $font-size-1;
+            font-weight: $font-weight-bold;
+            padding: $pd-2 $pd-1;
+            cursor: pointer;
+        }
+    }
+    .function-container {
+        padding: 0 6.5%;
+        margin: $mg-6 0;
+    }
+    .function-item {
+        height: 300px;
+        color: $color-dark-blue-200;
+        box-shadow: $box-shadow-2;
+        position: relative;
+        h3 {
+            font-size: $font-size-2;
+            margin-bottom: $mg-1;
+            font-weight: $font-weight-bold;
+        }
+        p {
+            font-weight: $font-weight-300;
+            margin-bottom: $mg-2;
+            font-size: $font-size-1;
+            color: $color-dark-blue-100;
+        }
+        div{
+            position: absolute;
+            text-align: center;
+            top: 48%; 
+            width: 100%;  
+        }
+    }
+    #discover{
+        padding: 0 $pd-8 + 1.5;
+        .discover-title{
+            h1{
+                font-size: $font-size-4;
+                margin-bottom: $mg-1;
+            }
+            span{
+                color: $color-blue-200;
+                font-weight: $font-weight-300;
+                font-size: $font-size-1;
+            }
+        }
+        .discover-item{
+            height: 450px;
+            position: relative;
+            margin-top: $mg-2;
+            .discover-item-content{
+                position: absolute;
+                left: 0;
+                bottom: 10%;
+                h2{
+                    font-weight: $font-weight-bold;
+                    margin-bottom: $mg-2;
+                    font-size: $font-size-2;
+                    color: $color-dark-blue-200;
+                }
+                p{
+                    font-weight: $font-weight-300;
+                    margin-bottom: $mg-1;
+                    font-size: $font-size-1;
+                    padding: 0 $pd-3;
+                    margin-bottom: $mg-2;
+                }
+                a{
+                    font-weight: $font-weight-bold;
+                    color: $color-blue-200;
+                    font-size: $font-size-1;
+                }
+            }
+        }
+        .discover-item-6{
+            color: $color-dark-blue-200;
+            box-shadow: $box-shadow-2;
+            background-color: $color-white;
+            position: relative;
+            a{
+                color: $color-blue-200;
+            }
+            >i{
+                font-size: $font-size-3;
+                position: absolute;
+                color: $color-blue-200;
+                top: 1rem;
+                right: 1rem;
+            }
+            .discover-item-twitter{
+                position: absolute;
+                top: 30%;
+                left: 5%;
+                .discover-twitter-logo{
+                    img{
+                        border-radius: 0.5rem;
+                        margin-right: $mg-1;
+                        height: 4rem;
+                    }
+                    p{
+                        font-size: $font-size-1;
+                        a{
+                            color: $color-blue-200  ;
+                        }
+                        a:first-child{
+                            font-weight: $font-weight-bold;
+
+                        }
+                    }
+                }
+                >p{
+                    font-size: $font-size-1;
+                    margin-bottom: 11px;
+                    >span{
+                     color: $color-blue-200;
+                     margin-right: $mg-2;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+.transform-rotate {
+    transform: rotate(180deg);
+}
+.pad-col{
+    padding: $pd-1;
+}
