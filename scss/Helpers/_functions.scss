@@ -66,7 +66,7 @@
 
 @each $stt,$img in (1,discover-1) (2,discover-2) (3,discover-3) (4,discover-4) (5,discover-5) {
     .discover-item-#{$stt}{
-            background: url('/Honda/img/#{$img}.jpg');
+            background: url('/HondaProject/img/#{$img}.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-color: $color-white;
