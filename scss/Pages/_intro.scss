@@ -14,7 +14,7 @@
     }
     .intro-left {
         background-color: $color-black;
-        background: url("../../img/our-vehicle-intro-1.jpg");
+        background: url("/HondaProject/img/our-vehicle-intro-1.jpg");
         .intro-left-content {
             color: $color-white;
             text-align: center;
@@ -35,7 +35,7 @@
         }
     }
     .intro-right {
-        background: url("../../img/our-vehicles-intro-2.jpg");
+        background: url("/HondaProject/img/our-vehicles-intro-2.jpg");
         .intro-right-content {
             color: $color-white;
             position: absolute;

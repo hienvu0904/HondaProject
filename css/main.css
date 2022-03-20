@@ -994,7 +994,7 @@ div {
     margin-top: -200px; }
   .intro-container .intro-left {
     background-color: #000;
-    background: url("../../img/our-vehicle-intro-1.jpg"); }
+    background: url("/HondaProject/img/our-vehicle-intro-1.jpg"); }
     .intro-container .intro-left .intro-left-content {
       color: #fff;
       text-align: center;
@@ -1010,7 +1010,7 @@ div {
         padding: 0 20px;
         margin-bottom: 30px; }
   .intro-container .intro-right {
-    background: url("../../img/our-vehicles-intro-2.jpg"); }
+    background: url("/HondaProject/img/our-vehicles-intro-2.jpg"); }
     .intro-container .intro-right .intro-right-content {
       color: #fff;
       position: absolute;
